@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/sorter" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/sorter" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="ArrayType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Odd" />
+      <xs:enumeration value="Even" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ArrayType" nillable="true" type="tns:ArrayType" />
+</xs:schema>

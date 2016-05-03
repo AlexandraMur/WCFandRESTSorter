@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="71f25c7f-755b-47ea-b090-1e5865c0013a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8001/Array/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="66da8835-2614-4bd0-83f5-ec8632f7a9db" SourceId="1" SourceUrl="http://localhost:8001/Array/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="560040d9-3684-4f49-984a-7b86e28b2527" SourceId="1" SourceUrl="http://localhost:8001/Array/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="f10fb33d-3855-4804-8b2f-3bf321e4bc4b" SourceId="1" SourceUrl="http://localhost:8001/Array/?xsd=xsd2" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="2fbeb81b-87b0-49b5-9fef-4f8305313ef3" SourceId="1" SourceUrl="http://localhost:8001/Array/?xsd=xsd3" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="6356b224-f4e0-41d7-86d0-a789294d60b7" SourceId="1" SourceUrl="http://localhost:8001/Array/?disco" />
+    <MetadataFile FileName="Array.wsdl" MetadataType="Wsdl" ID="fc143383-d3fb-4f08-bd01-031de46b0025" SourceId="1" SourceUrl="http://localhost:8001/Array/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

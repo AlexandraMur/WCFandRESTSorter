@@ -1,0 +1,4 @@
+<module name="Sorter">
+  <bind service="ISorter, Sorter"
+        to="Sorter, Sorter" scope="singleton" />
+</module>
